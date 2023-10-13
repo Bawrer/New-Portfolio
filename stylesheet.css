@@ -62,4 +62,10 @@ nav ul li a:hover::after{
    width: 100%;
 }
 
+.header-tex{
+   margin-top: 20%;
+   font-size: 30px;
+
+}
+
  
