@@ -32,7 +32,7 @@
    </div>
    </header>
    <!------------------About Me------------------------->
-   <section>
+   
    <div id="about">
       <div class="container">
          <div class="row">
@@ -48,23 +48,37 @@
                   I thrive on crafting seamless<br> digital experiences that merge creativity with functionality.</p>
                 
                   <div class="tab-titles">  
-                  <p class="tab-links active-link">Skills</p>
-                  <p class="tab-links">experience</p>
-                  <p class="tab-links">Education</p>
+                  <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                  <p class="tab-links"  onclick="opentab('experience')">experience</p>
+                  <p class="tab-links"  onclick="opentab('Education')">Education</p>
                  
                   </div>
-                  <div class="tab-contents">
+                  <div class="tab-contents active-tab" id="skills">
                      <ul>
-                        <li><span> Responsive Design Email Subscribe form</span></li>
-                        <li><span>Blog (HTML, CSS, js)</span></li>
-                        <li><span>Currently Working on a Messaging App (Like WhatsApp)</span></li>
-                        <li><span>Portfolio (HTML, CSS, js)</span></li>
+                        <li><span>Web development</span>  <br>Responsive Design Email Subscribe form</li>
+                        <li><span>Blog</span><br>Blog (HTML, CSS, js)</li>
+                        <li><span>Add Design</span><br>Currently Working on a Messaging App (Like WhatsApp)</li>
+                        <li><span>Functional Portfolio</span><br> Using (HTML, CSS, js)</li>
+                     </ul>
+                  </div>
+
+                  <div class="tab-contents" id="experience">
+                     <ul>
+                        <li><span>Internship</span>  <br>I am a candidate at CAPACITI career Tech <br>2023-224</li>
+                         
+                     </ul>
+                  </div>
+                  <div class="tab-contents" id="Education">
+                     <ul>
+                        <li><span>High School</span>  <br>Bekizulu sss <br>2017</li>
+                        <li><span>University</span>  <br>Walter Sisulu University</li>
+                        <li><span>Course</span>  <br>BSc in Physics <br>2019-2022</li>
+                         
                      </ul>
                   </div>
             </div>
          </div>
       </div>
    </div>
-</section>
    </body>
 </html>
