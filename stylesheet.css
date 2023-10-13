@@ -13,7 +13,7 @@ body{
    position:fixed;
    width: 100%;
    height: 100vh;
-   background-image: url(/images/Background\ image.png);
+   background-image: url(/images/roman-synkevych-vXInUOv1n84-unsplash.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -38,6 +38,23 @@ nav ul li{
    display: inline-block;
    list-style: none;
    margin: 10px 20px;
+}
+
+nav ul li a{
+   color: #fff;
+   text-decoration: none;
+   font-size: 18px;
+   position: relative;
+}
+
+nav ul li a::after{
+   content: '';
+   width: 100%;
+   height: 3px;
+   background: #ff004f;
+   left: 0;
+   position: absolute;
+   bottom: -6px; 
 }
 
  
