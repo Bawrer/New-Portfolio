@@ -13,7 +13,7 @@ body{
    position:relative;
    width: 100%;
    height: 100vh;
-   background-image: url(/images/roman-synkevych-vXInUOv1n84-unsplash.jpg);
+   background-image: url(/images/kaur-kristjan-CpPF4W5PB1c-unsplash.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -280,4 +280,19 @@ transition: 0.5s;
 
 .btn:hover{
    background: #359199;
+}
+
+/*-------------------contact---------------------------*/
+ 
+ .contact-left{
+
+flex-basis: 35%;
+
+}
+.contact-right{
+   flex-basis: 60%;
+}
+
+.contact-left p{
+   margin-top: 30px;
 }
