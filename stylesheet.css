@@ -223,4 +223,9 @@ transition: 0.5s;
    height: 100%;
    background: linear-gradient(rgba(0,0,0,0,6), #bb2554);
    border-radius: 12px;
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   overflow: hidden;
+
 }
