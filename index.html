@@ -37,7 +37,7 @@
       <div class="container">
          <div class="row">
             <div class="about-col-1">
-               <img src="/images/WhatsApp Image 2023-10-13 at 8.54.28 PM.jpeg" alt="" height="900">
+               <img src="/images/WhatsApp Image 2023-10-14 at 12.45.56 PM.jpeg">
             </div>
             <div class="about-col-2">
                <h1 class="sub-title" >About Me</h1>
@@ -48,19 +48,19 @@
                   I thrive on crafting seamless<br> digital experiences that merge creativity with functionality.</p>
                 
                   <div class="tab-titles">  
-                  <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                  <p class="tab-links"  onclick="opentab('experience')">experience</p>
-                  <p class="tab-links"  onclick="opentab('Education')">Education</p>
+                     <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                     <p class="tab-links"  onclick="opentab('experience')">Experience</p>
+                     <p class="tab-links"  onclick="opentab('education')">Education</p>
                  
                   </div>
-                  <div class="tab-contents active-tab" id="skills">
-                     <ul>
-                        <li><span>Web development</span>  <br>Responsive Design Email Subscribe form</li>
-                        <li><span>Blog</span><br>Blog (HTML, CSS, js)</li>
-                        <li><span>Add Design</span><br>Currently Working on a Messaging App (Like WhatsApp)</li>
-                        <li><span>Functional Portfolio</span><br> Using (HTML, CSS, js)</li>
-                     </ul>
-                  </div>
+                     <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                           <li><span>Web development</span>  <br>Responsive Design Email Subscribe form</li>
+                           <li><span>Blog</span><br>Blog (HTML, CSS, js)</li>
+                           <li><span>Add Design</span><br>Currently Working on a Messaging App (Like WhatsApp)</li>
+                           <li><span>Functional Portfolio</span><br> Using (HTML, CSS, js)</li>
+                        </ul>
+                     </div>
 
                   <div class="tab-contents" id="experience">
                      <ul>
@@ -68,7 +68,7 @@
                          
                      </ul>
                   </div>
-                  <div class="tab-contents" id="Education">
+                  <div class="tab-contents" id="education">
                      <ul>
                         <li><span>High School</span>  <br>Bekizulu sss <br>2017</li>
                         <li><span>University</span>  <br>Walter Sisulu University</li>
@@ -80,21 +80,39 @@
          </div>
       </div>
    </div>
-   <script >
-      var tablinks = document.getElementsByClassName("tab-links");
-      var tabcontents = document.getElementsByClassName("tab-contents");
 
-      function opentab(tabname){
-         for(tablink of tablinks){
-            tablinks.classList.remove("active-link");
-         }
+   <!------------------------Services-------------------------->
+       <div id="services">
+         <div class="container">
+            <div class="sub-title">My Services</div>
+            <div class="services-list">
+               <div>
+                  <h2>Web Design</h2>
+               </div>
+            </div>
+         </div>
+       </div>
+<script>
+   var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
 
-      for(tabcontent of tabcontents){
-         tabcontent.classList.remove("active-tab")
-         }
+function opentab(tabname){
 
-      event.currentTarget.classList.add("active-links");
+   for(tablink of tablinks){
+
+      tablink.classList.remove("active-link");
    }
-      </script>
+
+            for(tabcontent of tabcontents){
+
+                  tabcontent.classList.remove("active-tab")
+
+                  }
+                     event.currentTarget.classList.add("active-link")
+                     document.getElementById(tabname).classList.add("active-tab")
+
+    }
+</script>
+
       </body>
    </html>
