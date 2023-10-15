@@ -32,6 +32,8 @@ nav{
    align-items: center;
    justify-content: space-between;
    flex-wrap: wrap;
+  
+ 
 
 }
 
@@ -363,6 +365,11 @@ form btn2{
 }
 .copyright i{
    color: #ff004f;
+}
+#msg{
+   color: #61b752;
+   margin-top: -40px;
+   display: block;
 }
 
 /*------------------css for small screen--------------------*/
