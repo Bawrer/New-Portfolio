@@ -17,16 +17,16 @@
       <nav>  
          <img src="/images" alt="" class="logo";>
 
-         <ul>
+         <ul id="sidemenu">
              
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Skills</a></li>
             <li><a href="#">Portfolio</a></li>
             <li><a href="#">Contact</a></li> 
-            <i class="fa-solid fa-xmark"></i>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
          </ul>
-         <i class="fa-solid fa-bars"></i>
+         <i class="fa-solid fa-bars" onclick="openemenu()"></i>
       </nav>
       <div class="header-tex">
           <p>Fullstack software developer</p>
@@ -67,7 +67,7 @@
 
                   <div class="tab-contents" id="experience">
                      <ul>
-                        <li><span>Internship</span>  <br>I am a candidate at CAPACITI career Tech <br>2023-224</li>
+                        <li><span>Internship</span>  <br>I am a candidate at CAPACITI career Tech Accelerator <br>2023-224</li>
                          
                      </ul>
                   </div>
@@ -184,16 +184,21 @@
          </div>
       </div>
    </div>
+   <div class="copyright">
+      <p>copyright @ Bonginkosi. Made with<i class="fa-solid fa-heart"> by CAPACITI candidate 2023</i></p>
+   </div>
 
 
+<script>
+var sidemenu = document.getElementById("sidemenu")
+function openemenu(){
+  sidemenu.style.right= "0";
+}
 
-
-
-
-
-
-
-
+function closemenu(){
+   sidemenu.style.right="-200px";
+}
+</script>
 
 
 <script>
