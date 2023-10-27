@@ -37,6 +37,9 @@ nav{
 
 }
 
+
+
+
 .logo{
    width: 140px;
 }
@@ -84,6 +87,19 @@ nav ul li a:hover::after{
    color:#ff004f;
 }
 
+
+
+
+#header .logo {
+   font-size: 24px; /* Adjust the font size as needed */
+   text-decoration: none;
+   color: #cec0c0; /* Text color for the logo */
+   font-weight: bold;
+ }
+ 
+ #header .logo:hover {
+   color: #f00466; /* Text color for the logo on hover */
+ }
 /*...........................About me.....................*/
 
 
