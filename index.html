@@ -175,8 +175,8 @@
          </div>
          <div class="contact-right">
             <form name="submit-to-google-sheet">
-               <input type="text" name="Name" placeholder="Your Name" required>
-               <input type="email" name="email" placeholder="Your email" required>
+               <input type="text" name="Name" placeholder="Your Name" >
+               <input   name="email" placeholder="Your email">
                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
                <button type="submit" class="btn btn2">Submit</button>
             </form>
@@ -239,7 +239,42 @@ function opentab(tabname){
        })
        .catch(error => console.error('Error!', error.message))
    })
- </script>
+
+
+
+  
+      function validateForm() {
+          var name = document.forms["submit-to-google-sheet"]["Name"].value;
+          var email = document.forms["submit-to-google-sheet"]["email"].value;
+          var message = document.forms["submit-to-google-sheet"]["Message"].value;
+          var emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+          var namePattern = /^[a-zA-Z ]+$/; // Allow letters and spaces only
+
+          if (name.trim() === "") {
+              alert("Name must be filled out");
+              return false;
+          } else if (!name.match(namePattern)) {
+              alert("Name must contain letters and spaces only");
+              return false;
+          }
+
+          if (email.trim() === "") {
+              alert("Email must be filled out");
+              return false;
+          } else if (!email.match(emailPattern)) {
+              alert("Invalid email format");
+              return false;
+          }
+
+          if (message.trim() === "") {
+              alert("Message must be filled out");
+              return false;
+          }
+
+          return true;
+      }
+  </script>
+  
 
       </body>
    </html>
