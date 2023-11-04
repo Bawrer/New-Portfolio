@@ -6,119 +6,100 @@
    <title>portfolio</title>
    <link rel="stylesheet" href="/stylesheet.css">
    <script src="https://kit.fontawesome.com/d03bc2032d.js" crossorigin="anonymous"></script>
-
 </head>
 <body>
    <header id="header">
       <a href="#" class="logo">portfolio</a>
-
       <div class="container">
-
-      <nav>  
-         <img src="/images" alt="" class="logo";>
-
-         <ul id="sidemenu">
-             
-            <li><a href="#header">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li> 
-            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
-         </ul>
-         <i class="fa-solid fa-bars" onclick="openemenu()"></i>
-      </nav>
-      <div class="header-tex">
-          <p>Fullstack software developer</p>
-          <h1>Hi, I'm <span>Bonginkosi</span><br> Zweni From South Africa</h1>
+         <nav>
+            <img src="/images" alt="" class="logo">
+            <ul id="sidemenu">
+               <li><a href="#header">Home</a></li>
+               <li><a href="#about">About</a></li>
+               <li><a href="#services">Services</a></li>
+               <li><a href="#portfolio">Portfolio</a></li>
+               <li><a href="#contact">Contact</a></li>
+               <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openemenu()"></i>
+         </nav>
+         <div class="header-tex">
+            <p>Fullstack software developer</p>
+            <h1>Hi, I'm <span>Bonginkosi</span><br> Zweni From South Africa</h1>
+         </div>
       </div>
-   </div>
    </header>
-   <!------------------About Me------------------------->
-   
+   <!-- About Me -->
    <div id="about">
       <div class="container">
          <div class="row">
             <div class="about-col-1">
-               <img src="/images/WhatsApp Image 2023-10-14 at 12.45.56 PM.jpeg">
+               <img src="/images/WhatsApp Image 2023-10-14 at 12.45.56 PM.jpeg" alt="Profile Image">
             </div>
             <div class="about-col-2">
-               <h1 class="sub-title" >About Me</h1>
-
-               <p>Hello! I'm Zweni Bonginkosi,
-                  a passionate a full-stack<br>developer with a knack for turning innovative ideas into functional and user-friendly web  </pre>applications.
-                  With a strong foundation in both front-end and back-end technologies,<br>
-                  I thrive on crafting seamless<br> digital experiences that merge creativity with functionality.</p>
-                
-                  <div class="tab-titles">  
-                     <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                     <p class="tab-links"  onclick="opentab('experience')">Experience</p>
-                     <p class="tab-links"  onclick="opentab('education')">Education</p>
-                 
-                  </div>
-                     <div class="tab-contents active-tab" id="skills">
-                        <ul>
-                           <li><span>Web development</span>  <br>Responsive Design Email Subscribe form</li>
-                           <li><span>Blog</span><br>Blog (HTML, CSS, js, C++ and Java)</li>
-                           <li><span>Add Design</span><br>Currently Working on a Messaging App (Like WhatsApp)</li>
-                           <li><span>Functional Portfolio</span><br> Using (HTML, CSS, js)</li>
-                        </ul>
-                     </div>
-
-                  <div class="tab-contents" id="experience">
-                     <ul>
-                        <li><span>Internship</span>  <br>I am a candidate at CAPACITI career Tech Accelerator <br>2023-224</li>
-                         
-                     </ul>
-                  </div>
-                  <div class="tab-contents" id="education">
-                     <ul>
-                        <li><span>High School</span>  <br>Bekizulu sss <br>2017</li>
-                        <li><span>University</span>  <br>Walter Sisulu University</li>
-                        <li><span>Course</span>  <br>BSc in Physics <br>2019-2022</li>
-                         
-                     </ul>
-                  </div>
+               <h1 class="sub-title">About Me</h1>
+               <p>Hello! I'm Zweni Bonginkosi, a passionate full-stack developer with a knack for turning innovative ideas into functional and user-friendly web applications. With a strong foundation in both front-end and back-end technologies, I thrive on crafting seamless digital experiences that merge creativity with functionality.</p>
+               <div class="tab-titles">
+                  <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                  <p class="tab-links"  onclick="opentab('experience')">Experience</p>
+                  <p class="tab-links"  onclick="opentab('education')">Education</p>
+               </div>
+               <div class="tab-contents active-tab" id="skills">
+                  <ul>
+                     <li><span>Web development</span>  <br>Responsive Design Email Subscribe form</li>
+                     <li><span>Blog</span><br>Blog (HTML, CSS, js, C++ and Java)</li>
+                     <li><span>Add Design</span><br>Currently Working on a Messaging App (Like WhatsApp)</li>
+                     <li><span>Functional Portfolio</span><br> Using (HTML, CSS, js)</li>
+                  </ul>
+               </div>
+               <div class="tab-contents" id="experience">
+                  <ul>
+                     <li><span>Internship</span>  <br>I am a candidate at CAPACITI career Tech Accelerator <br>2023-224</li>
+                  </ul>
+               </div>
+               <div class="tab-contents" id="education">
+                  <ul>
+                     <li><span>High School</span>  <br>Bekizulu sss <br>2017</li>
+                     <li><span>University</span>  <br>Walter Sisulu University</li>
+                     <li><span>Course</span>  <br>BSc in Physics <br>2019-2022</li>
+                  </ul>
+               </div>
             </div>
          </div>
       </div>
    </div>
 
-   <!------------------------Services-------------------------->
-       <div id="services">
-         <div class="container">
-            <div class="sub-title">My Services</div>
-            <div class="services-list">
-               <div>
-                  <i class="fa-solid fa-code"></i>
-                  <h2>Web Design</h2>
-                  <p>Your Next Web Developer, who is working in Shopify Dropshipping Stores, 
-                     High Converting Ecommerce stores, Product Page also having Custom code, liquid template design.</p>
-                     <a href="#">Learn more</a>
-               </div>
-               <div>
-
-                  <i class="fa-solid fa-crop"></i>
-                  <h2>User Secret</h2>
-                  <p>I ensures that, there is no sensitive data included in the source code and are stored outside of the project folder. And all the data which is stored by User Secrets is not encrypted.</p>
-                     <a href="#">Learn more</a>
-               </div>
-               <div>
-                  <i class="fa-brands fa-app-store-ios"></i>
-                  <h2>App Design</h2>
-                  <p>I encompasses both the user interface(UI) & user experience(UX). The overall style of the app,
-                     including things like the colour scheme, font selection, and the types of buttons and widgets which will use.</p>
-                     <a href="#">Learn more</a>
-               </div>
+   <!-- Services -->
+   <div id="services">
+      <div class="container">
+         <h1 class="sub-title">My Services</h1>
+         <div class="services-list">
+            <div>
+               <i class="fa-solid fa-code"></i>
+               <h2>Web Design</h2>
+               <p>Your Next Web Developer, who is working in Shopify Dropshipping Stores, High Converting Ecommerce stores, Product Page also having Custom code, liquid template design.</p>
+               <a href="#">Learn more</a>
+            </div>
+            <div>
+               <i class="fa-solid fa-crop"></i>
+               <h2>User Secret</h2>
+               <p>I ensure that there is no sensitive data included in the source code and are stored outside of the project folder. All data stored by User Secrets is not encrypted.</p>
+               <a href="#">Learn more</a>
+            </div>
+            <div>
+               <i class="fa-brands fa-app-store-ios"></i>
+               <h2>App Design</h2>
+               <p>I encompass both the user interface (UI) and user experience (UX). The overall style of the app, including things like the color scheme, font selection, and the types of buttons and widgets which will use.</p>
+               <a href="#">Learn more</a>
             </div>
          </div>
-       </div>
+      </div>
+   </div>
 
-<!------------------------------Portfolio------------------------------------------------->
-
-<div id="portfolio">
-   <div class="container">
-      <h1 class="sub-title">My Work</h1>
+   <!-- Portfolio -->
+   <div id="portfolio">
+      <div class="container">
+         <h1 class="sub-title">My Work</h1>
          <div class="work-list">
             <div class="work">
                <img src="./images/woman-standing-smartphone.jpg" alt="">
@@ -128,20 +109,16 @@
                   <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                </div>
             </div>
-
             <div class="work">
                <img src="/images/05lFh69DK15xcYHSTZgr0zN-2.webp" alt="">
-
                <div class="layer">
-                  <h3> Online Music player</h3>
+                  <h3>Online Music player</h3>
                   <p>Play music online and download using my Apps</p>
                   <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                </div>
             </div>
-
             <div class="work">
                <img src="/images/unrecognizable-asian-woman-sitting-cafe-working-laptop.jpg" alt="">
-
                <div class="layer">
                   <h3>Online Shopping App</h3>
                   <p>Browse & discover millions of products. Read customer reviews and find best sellers.</p>
@@ -149,132 +126,43 @@
                </div>
             </div>
          </div>
-
          <a href="#" class="btn">See More</a>
-      
+      </div>
    </div>
-</div>
 
-
-
-<!-------------------------------contact--------------------------------------------->
-<div id="contact">
-   <div class="container">
-      <div class="row">
-         <div class="contact-left">
-            <h1 class="sub-title">Contact me</h1>
-            <p><i class="fa-solid fa-paper-plane"></i>zwenibonginkosi@gmail.com</p>
-            <p><i class="fa-solid fa-phone"></i>0640262483</p>
-            <div class="social-icons">
+   <!-- Contact -->
+   <div id="contact">
+      <div class="container">
+         <div class="row">
+            <div class="contact-left">
+               <h1 class="sub-title">Contact me</h1>
+               <p><i class="fa-solid fa-paper-plane"></i>zwenibonginkosi@gmail.com</p>
+               <p><i class="fa-solid fa-phone"></i>0640262483</p>
+               <div class="social-icons">
                   <a href="https://twitter.com/Bongink45395379"><i class="fa-brands fa-x-twitter"></i></a>
                   <a href="https://www.instagram.com/borah_zweni/"><i class="fa-brands fa-instagram"></i></a>
                   <a href="https://www.linkedin.com/in/bonginkosi-zweni-164794170/"><i class="fa-brands fa-linkedin"></i></a>
+               </div>
+               <a href="/Bonginkosi's CV.pdf" download class="btn btn2">Download My CV</a>
             </div>
-            <a href="/Bonginkosi's CV.pdf" download class="btn btn2">Download My CV</a>
+            <div class="contact-right">
+               <form name="submit-to-google-sheet" onsubmit="return validateForm()">
+                  <input type="text" name="Name" placeholder="Your Name">
+                  <input name="email" placeholder="Your email">
+                  <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                  <button type="submit" class="btn btn2">Submit</button>
+               </form>
+               <span id="msg"></span>
             </div>
-         </div>
-         <div class="contact-right">
-            <form name="submit-to-google-sheet">
-               <input type="text" name="Name" placeholder="Your Name" >
-               <input   name="email" placeholder="Your email">
-               <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-               <button type="submit" class="btn btn2">Submit</button>
-            </form>
-            <span id="msg"></span>
-          </div>
          </div>
       </div>
    </div>
+
    <div class="copyright">
-      <p>Copyright @ Bonginkosi. Made with<i class="fa-solid fa-heart"></i> by CAPACITI candidate 2023</p>
+      <p>Copyright @ Bonginkosi. Made with <i class="fa-solid fa-heart"></i> by CAPACITI candidate 2023</p>
    </div>
 
+<script src="/portfolio.js"></script>
 
-<script>
-var sidemenu = document.getElementById("sidemenu")
-function openemenu(){
-  sidemenu.style.right= "0";
-}
-
-function closemenu(){
-   sidemenu.style.right="-200px";
-}
-</script>
-
-
-<script>
-   var tablinks = document.getElementsByClassName("tab-links");
-var tabcontents = document.getElementsByClassName("tab-contents");
-
-function opentab(tabname){
-
-   for(tablink of tablinks){
-
-      tablink.classList.remove("active-link");
-   }
-
-            for(tabcontent of tabcontents){
-
-                  tabcontent.classList.remove("active-tab")
-
-                  }
-                     event.currentTarget.classList.add("active-link")
-                     document.getElementById(tabname).classList.add("active-tab")
-
-    }
-</script>
-<script>
-   const scriptURL = 'https://script.google.com/macros/s/AKfycbx8SSKoY6iHKIWeKYyHeCaRzd4Pjq0c3FQVCmiAh85FoAcA45B8u3VtyTQcbxzzq5xQ/exec'
-   const form = document.forms['submit-to-google-sheet']
-   const msg = document.getElementById("msg")
- 
-   form.addEventListener('submit', e => {
-     e.preventDefault()
-     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-       .then(response => {
-         msg.innerHTML = "Message sent successfully"
-         setTimeout(function(){
-            msg.innerHTML = ""
-         },submit-to-google-sheetsubmit-to-google-sheetsubmit-to-google-sheetsubmit-to-google-sheetsubmit-to-google-sheetsubmit-to-google-sheetsubmit-to-google-sheetsubmit-to-google-sheetsubmit-to-google-sheetsubmit-to-google-sheetsubmit-to-google-sheetsubmit-to-google-sheetsubmit-to-google-sheetsubmit-to-google-sheetsubmit-to-google-sheetsubmit-to-google-sheetsubmit-to-google-sheetsubmit-to-google-sheet5000)
-       })
-       .catch(error => console.error('Error!', error.message))
-   })
-
-
-
-  
-      function validateForm() {
-          var name = document.forms["submit-to-google-sheet"]["Name"].value;
-          var email = document.forms["submit-to-google-sheet"]["email"].value;
-          var message = document.forms["submit-to-google-sheet"]["Message"].value;
-          var emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
-          var namePattern = /^[a-zA-Z ]+$/; // Allow letters and spaces only
-
-          if (name.trim() === "") {
-              alert("Name must be filled out");
-              return false;
-          } else if (!name.match(namePattern)) {
-              alert("Name must contain letters and spaces only");
-              return false;
-          }
-
-          if (email.trim() === "") {
-              alert("Email must be filled out");
-              return false;
-          } else if (!email.match(emailPattern)) {
-              alert("Invalid email format");
-              return false;
-          }
-
-          if (message.trim() === "") {
-              alert("Message must be filled out");
-              return false;
-          }
-
-          return true;
-      }
-  </script>
-  
-
-      </body>
-   </html>
+</body>
+</html>
