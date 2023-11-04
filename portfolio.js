@@ -48,6 +48,7 @@ form.addEventListener('submit', e => {
   }
 });
 
+/*form validation*/
 
 function validateForm() {
    const name = form.elements['Name'].value;
