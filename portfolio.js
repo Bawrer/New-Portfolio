@@ -1,4 +1,3 @@
-
 var sidemenu = document.getElementById("sidemenu");
 function openemenu(){
    sidemenu.style.right = "0";
