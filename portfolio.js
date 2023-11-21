@@ -27,7 +27,7 @@ function opentab(tabname){
 
 
 
-const scriptURL = 'https://script.google.com/macros/s/AKfycbx8SSKoY6iHKIWeKYyHeCaRzd4Pjq0c3FQVCmiAh85FoAcA45B8u3VtyTQcbxzzq5xQ/exec';
+const scriptURL = 'https://script.google.com/macros/s/AKfycbyrwktPUuZbFhd-d1oIXp0imL0WzyGiBNqvBvDgnnA4i1bQ6sv3hwu8EKmaibZetw8S/exec';
 const form = document.forms['submit-to-google-sheet'];
 const msg = document.getElementById("msg");
 
