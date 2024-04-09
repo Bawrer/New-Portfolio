@@ -10,14 +10,14 @@ html{
 }
 
 body{
-   background-color: #080808;
+  background: url(/Back_video.mp4);
    color: #fff;
 }
 #header{
    position:relative;
    width: 100%;
    height: 100vh;
-   background-image: url(/images/clint-patterson-dYEuFB8KQJk-unsplash.jpg);
+    
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -101,6 +101,16 @@ nav ul li a:hover::after{
  
  #header .logo:hover {
    color: #f00466; /* Text color for the logo on hover */
+ }
+
+ #myVideo {
+   position: fixed;
+   right: 0;
+   bottom: 0;
+   min-width: 100vw;
+   min-height: 100vh;
+   object-fit: cover;
+   z-index: -1;
  }
 /*...........................About me.....................*/
 

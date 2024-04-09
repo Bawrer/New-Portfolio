@@ -23,10 +23,14 @@
             <i class="fa-solid fa-bars" onclick="openemenu()"></i>
          </nav>
          <div class="header-tex">
-            <p>Fullstack software developer</p>
+            <p>Junior software developer</p>
             <h1>Hi, I'm <span>Bonginkosi</span><br> Zweni From South Africa</h1>
          </div>
       </div>
+
+      <video id="myVideo" autoplay loop muted>
+         <source src="/Back_video.mp4" type="video/mp4">
+       </video>
    </header>
    <!-- About Me -->
    <div id="about">
@@ -37,7 +41,7 @@
             </div>
             <div class="about-col-2">
                <h1 class="sub-title">About Me</h1>
-               <p>Hello! I'm Zweni Bonginkosi, a passionate full-stack developer with a knack for turning innovative ideas into functional and user-friendly web applications. With a strong foundation in both front-end and back-end technologies, I thrive on crafting seamless digital experiences that merge creativity with functionality.</p>
+               <p>Hello! I'm Zweni Bonginkosi, a passionate Junior developer with a knack for turning innovative ideas into functional and user-friendly web applications. With a strong foundation in both front-end and back-end technologies, I thrive on crafting seamless digital experiences that merge creativity with functionality.</p>
                <div class="tab-titles">
                   <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
                   <p class="tab-links"  onclick="opentab('experience')">Experience</p>
@@ -54,6 +58,8 @@
                <div class="tab-contents" id="experience">
                   <ul>
                      <li><span>Internship</span>  <br>I am a candidate at CAPACITI career Tech Accelerator <br>2023-224</li>
+
+                     <li><span>Junoir software developer</span>  <br> I started a new job at Youngling as a Junior software developer <br>2024*</li>
                   </ul>
                </div>
                <div class="tab-contents" id="education">
@@ -165,7 +171,7 @@
                <p><i class="fa-solid fa-paper-plane"></i>zwenibonginkosi@gmail.com</p>
                <p><i class="fa-solid fa-phone"></i>0640262483</p>
               
-               <a href="/Bonginkosi's CV.pdf" download class="btn btn2">Download My CV</a>
+               <a href="/Bonginkosi-cv.037601e3b1d6fe7a573c (2).pdf" download class="btn btn2">Download My CV</a>
             </div>
             <div class="contact-right">
                <form name="submit-to-google-sheet" onsubmit="return validateForm()">
@@ -186,6 +192,30 @@
    </div>
 
 <script src="/portfolio.js"></script>
+
+<script type="module">
+   // Import the functions you need from the SDKs you need
+   import { initializeApp } from "https://www.gstatic.com/firebasejs/10.10.0/firebase-app.js";
+   import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.10.0/firebase-analytics.js";
+   // TODO: Add SDKs for Firebase products that you want to use
+   // https://firebase.google.com/docs/web/setup#available-libraries
+ 
+   // Your web app's Firebase configuration
+   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+   const firebaseConfig = {
+     apiKey: "AIzaSyA9O6amdhN8jNyd9T0A71bUtxp_jR8uIgg",
+     authDomain: "my-portfolio2-77593.firebaseapp.com",
+     projectId: "my-portfolio2-77593",
+     storageBucket: "my-portfolio2-77593.appspot.com",
+     messagingSenderId: "544054828602",
+     appId: "1:544054828602:web:b77666f970ba8d3ab59f03",
+     measurementId: "G-B3DX8QTVR8"
+   };
+ 
+   // Initialize Firebase
+   const app = initializeApp(firebaseConfig);
+   const analytics = getAnalytics(app);
+ </script>
 
 </body>
 </html>
