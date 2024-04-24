@@ -117,7 +117,8 @@ nav ul li a:hover::after{
 
 #about{
    padding: 80px 0;
-   color: #ababab;;
+   color: #ababab;
+   background:#030303;
 }
 .row {
    display: flex;
@@ -191,6 +192,7 @@ transition: 0.5s;
  
 #portfolio{
    padding: 50px 0;
+   background: #353434;
 }
 
 .work-list{
@@ -341,6 +343,37 @@ form btn2{
    margin-top: 20px;
    cursor: pointer;
 }
+
+@keyframes moveGradient {
+   0% {
+     background-position: 0 0;  
+   }
+   100% {
+     background-position: 200% 0;  
+   }
+ }
+
+ .scroll-to-top-btn {
+   position: fixed;
+   bottom: 40px;
+   right: 20px;
+   background-color: #344e41;
+   color: #ffffff;
+   border: none;
+   border-radius: 50%;
+   width: 50px;
+   height: 50px;
+   font-size: 10px;
+   cursor: pointer;
+   outline: none;
+   transition: background-color 0.3s ease;
+ }
+ 
+ .scroll-to-top-btn:hover {
+   background-color: #0056b3;
+ }
+ 
+
 .copyright{
   width: 100%; 
   text-align: center;
